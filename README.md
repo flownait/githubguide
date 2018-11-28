@@ -66,3 +66,44 @@ II.Upload into GitHub
 1. Create SSH key...
 https://help.github.com/enterprise/2.14/user/articles/checking-for-existing-ssh-keys/
 https://help.github.com/enterprise/2.14/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+2. Add SSH key into GitHub
+```terminal
+# view the public ssh key and copy, paste into github
+cat /Users/myname../.ssh/id_rsa.pub
+```
+3. Create GitHub project and remote link with local folder and it will display below scripts for usage
+# …or create a new repository on the command line
+```terminal
+echo "# ...projectname" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github...com:...accountname/...projectname.git
+git push -u origin master
+```
+# …or push an existing repository from the command line
+```terminal
+git remote add origin git@github...com:...accountname/...projectname.git
+git push -u origin master
+```
+key messages here
+```terminal
+# link with github project
+git remote add origin git@github...com:...accountname/...projectname.git
+
+# push the code and update, -u for the first time to push all branches, without -u for later any update push
+git push -u origin master
+git push origin master
+
+# push branch
+git push origin branchname
+
+# copy one github project into local
+git clone git@github...com:...accountname/...projectname.git
+
+# pull recent update/files to local
+git pull origin master
+```
+
+
