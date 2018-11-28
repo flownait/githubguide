@@ -8,7 +8,8 @@ Reference Link
 (English)https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 
 # Here started my record and practise
-
+----------------------------------------------------
+I. Create Git Repository in local (MacOS)
 1.Create a Git Folder and initialize as git folder
 ```terminal
 mkdir 5.1.DailyTasks
@@ -60,3 +61,8 @@ git reset --hard 8b9bc
 # or maybe forget the logid...then just use reflog to show the historical edit
 git reflog
 ```
+
+II.Upload into GitHub
+1. Create SSH key...
+https://help.github.com/enterprise/2.14/user/articles/checking-for-existing-ssh-keys/
+https://help.github.com/enterprise/2.14/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
