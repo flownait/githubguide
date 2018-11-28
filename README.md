@@ -9,4 +9,10 @@ Reference Link
 
 # Here started my record and practise
 
-1.Create a Git Folder mkdir 5.1.DailyTasks
+1.Create a Git Folder and initialize as git folder
+```terminal
+mkdir 5.1.DailyTasks
+cd 5.1.DailyTasks
+
+git init
+```
