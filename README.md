@@ -106,4 +106,29 @@ git clone git@github...com:...accountname/...projectname.git
 git pull origin master
 ```
 
+III. Create & Manage Branches (MacOS)
+1.Create a Branch
+```terminal
+git checkout -b branchname
 
+# Check branch status
+git branch
+
+# Change to Master Branch
+git checkout master
+
+# Merge branch into Master
+git merge branchname
+
+# Delete branch
+git branch -d branchname
+```
+
+2.Connect with Github
+```terminal
+# Push Branch into Github
+git push origin branchname
+
+# Delete Branch from Github
+git push --delete origin branchname
+```
