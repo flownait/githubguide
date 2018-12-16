@@ -130,5 +130,6 @@ git branch -d branchname
 git push origin branchname
 
 # Delete Branch from Github
+# Reference link https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged
 git push --delete origin branchname
 ```
