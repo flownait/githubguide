@@ -3,9 +3,9 @@ This is the guidance for myself to record git usage in github
 
 Reference Link
 
-(Chinese)(https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000)
+[Chinese](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001373962845513aefd77a99f4145f0a2c7a7ca057e7570000)
 
-(English)(https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+[English](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
 # Here started my record and practise
 ----------------------------------------------------
@@ -64,8 +64,8 @@ git reflog
 
 II.Upload into GitHub
 1. Create SSH key...
-https://help.github.com/enterprise/2.14/user/articles/checking-for-existing-ssh-keys/
-https://help.github.com/enterprise/2.14/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+[link1](https://help.github.com/enterprise/2.14/user/articles/checking-for-existing-ssh-keys/)
+[link2](https://help.github.com/enterprise/2.14/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 2. Add SSH key into GitHub
 ```terminal
