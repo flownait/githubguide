@@ -11,7 +11,7 @@ Reference Link
 ----------------------------------------------------
 I. Create Git Repository in local (MacOS)
 1.Create a Git Folder and initialize as git folder
-```terminal
+```Terminal
 mkdir 5.1.DailyTasks
 cd 5.1.DailyTasks
 
@@ -27,7 +27,7 @@ git status
 ```
 
 2.Modify and recommit into git
-```terminal
+```Terminal
 # whatever file changed, just use similar scripts
 git add readme.txt
 git commit -m "modify readme file"
@@ -44,7 +44,7 @@ git commit -m "delete test files"
 ```
 
 3.Version Rollback and Reset
-```terminal
+```Terminal
 # check historical changes
 git log
 git log --pretty=oneline
@@ -68,13 +68,13 @@ II.Upload into GitHub
 [link2](https://help.github.com/enterprise/2.14/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 2. Add SSH key into GitHub
-```terminal
+```Terminal
 # view the public ssh key and copy, paste into github
 cat /Users/myname../.ssh/id_rsa.pub
 ```
 3. Create GitHub project and remote link with local folder and it will display below scripts for usage
 # …or create a new repository on the command line
-```terminal
+```Terminal
 echo "# ...projectname" >> README.md
 git init
 git add README.md
@@ -83,12 +83,12 @@ git remote add origin git@github...com:...accountname/...projectname.git
 git push -u origin master
 ```
 # …or push an existing repository from the command line
-```terminal
+```Terminal
 git remote add origin git@github...com:...accountname/...projectname.git
 git push -u origin master
 ```
 key messages here
-```terminal
+```Terminal
 # link with github project
 git remote add origin git@github...com:...accountname/...projectname.git
 
@@ -108,7 +108,7 @@ git pull origin master
 
 III. Create & Manage Branches (MacOS)
 1.Create a Branch
-```terminal
+```Terminal
 git checkout -b branchname
 
 # Check branch status
@@ -125,7 +125,7 @@ git branch -d branchname
 ```
 
 2.Connect with Github
-```terminal
+```Terminal
 # Push Branch into Github
 git push origin branchname
 
