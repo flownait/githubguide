@@ -133,3 +133,15 @@ git push origin branchname
 # Reference link https://stackoverflow.com/questions/6127328/how-can-i-delete-all-git-branches-which-have-been-merged
 git push --delete origin branchname
 ```
+
+
+----------------------------------------------------
+# How to Upload Scripts in PyPi
+
+Reference Link
+
+[English](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
+[Chinese](https://www.cnblogs.com/rongpmcu/p/7662821.html)
+
+
+
