@@ -1,3 +1,5 @@
+Quick Links: [GitHub](#githubguide) | [PyPi](#How to Upload Scripts in PyPi)
+
 # githubguide
 This is the guidance for myself to record git usage in github
 
