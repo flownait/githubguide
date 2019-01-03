@@ -146,7 +146,18 @@ Reference Link
 
 [Chinese](https://www.cnblogs.com/rongpmcu/p/7662821.html)
 
+Here Just put some more notes besides official site manual
 
+```Terminal
+# Build upload files package
+python3.6 setup.py sdist bdist_wheel
+
+# Upload package into pypi
+python3.6 -m twine upload dist/*
+
+# Update selected version into pypi
+python3.6 -m twine upload dist/*0.0.2*
+```
 
 ----------------------------------------------------
 # GitHub Markdown Reference
