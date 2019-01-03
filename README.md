@@ -1,4 +1,4 @@
-Quick Links: [GitHub](#githubguide) | [PyPi](#How to Upload Scripts in PyPi)
+Quick Links: [GitHub](#githubguide) | [PyPi](#PyPiGuidence)
 
 # githubguide
 This is the guidance for myself to record git usage in github
@@ -138,7 +138,9 @@ git push --delete origin branchname
 
 
 ----------------------------------------------------
-# How to Upload Scripts in PyPi
+# PyPiGuidence
+
+How to Upload Scripts in PyPi
 
 Reference Link
 
